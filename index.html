@@ -65,13 +65,19 @@
                                 await swals.fire('Coba klik ikon hati di paling bawah dong');
                             } else {
                                 //gak kangen
+                                await swals.fire(`Huhu kenapa kamu gk kangen samaku ${nama} apakah aku kurang pas di kamu?`)
+                                await swals.fire(`Yaudah deh makasih ya ${nama}`)
+                                await swals.fire(`Aku ada selalu di dalam hati kamu jika ${nama} kangen sama aku jumpai aku`)
                             }
                         }
                     } else {
                         //gak sayang
+                         await swals.fire(`Kenapa kamu gk sayang samaku ${nama}?`)
+                        await swals.fire(`Gpp ${nama} gk sayang samaku tapi yang pasti aku sayang sama kamu ${nama}`)
                     }
                 } else {
-                    //gak isi nama
+                    await swals.fire(`Dih sombong amat sih jadi orang`)
+                    await swals.fire(`Jangan sombong kali dong sama-sama manusia aja pun kita`)
                 }
             }
         function hati(){
